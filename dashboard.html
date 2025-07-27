@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>DashBoard - LinkLock</title>
+<link rel="stylesheet" href="css/dashboardStyle.css" />
+</head>
+<body>
+	<div class="dashboard-container">
+		<h2>Welcome to LinkLock DashBoard</h2>
+
+		<div class="top-bar">
+			<button onclick="location.href='upload.html'">+ Upload New
+				File</button>
+			<button onclick="location.href='auth?action=logout'">Logout</button>
+		</div>
+
+		<h2>📁 Your Uploaded Files</h2>
+		<div class="table-wrapper">
+			<table id="fileTable">
+				<thead>
+					<tr>
+						<th>Filename</th>
+						<th>Size</th>
+						<th>Expires</th>
+						<th>Downloads</th>
+						<th>Link</th>
+						<th>Actions</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- JavaScript will insert rows here -->
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!-- Overlay for Logs -->
+	<div id="logsOverlay" class="overlay">
+		<div class="log-popup">
+			<button class="close-btn" onclick="closeLogs()">✖</button>
+			<h3>Download Logs</h3>
+			<div id="logsContent"></div>
+		</div>
+	</div>
+
+
+	<script src="dashboardScript.js"></script>
+
+
+</body>
+</html>

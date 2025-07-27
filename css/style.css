@@ -1,0 +1,82 @@
+/* Apply a clean font and center layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Form box */
+.form-container {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  color: #333333;
+  font-size: 25px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] ,
+input[type="file"],
+input[type="number"] {
+  width: 90%;
+  padding: 10px 12px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top : 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Link below the form */
+
+.switch-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.switch-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.switch-link a:hover {
+  text-decoration: underline;
+}
+
+label{
+	font-size : 17px;
+	padding-bottom : 10px;
+}
+
+

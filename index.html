@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LinkLock - Secure File Sharing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #000;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: #f9f9f9;
+      border-radius: 20px;
+      padding: 40px;
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+
+    .title {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #111;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-size: 1em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      cursor: pointer;
+      background: #000;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">🔐 LinkLock</div>
+    <div class="subtitle">Secure File Sharing with Control</div>
+    <button class="btn" onclick="window.location.href='login.html'">Login</button>
+    <button class="btn" onclick="window.location.href='register.html'">Sign Up</button>
+  </div>
+</body>
+</html>
